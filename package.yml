@@ -1,0 +1,11 @@
+name: Accessible Slider
+author: mashalla
+category: Widgets
+tags: [slider, data, drag, drop, knob, element]
+#docs: http://ascribedata.com/moo/dialog/
+demo: http://mashalla.github.com/slider
+current: 1.0
+
+sources:
+  - "Source/slider.js"
+  - "Source/demo.js"
