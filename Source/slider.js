@@ -11,16 +11,17 @@ authors:
  - Valerio Proietti
 
 requires:
- - core:1.2.4/Element.Dimensions
- - /Class.Binds
- - /Drag
- - /Element.Dimensions
- - /Element.Measure
+ - Core/1.2.4: *
+ - More/1.2.4: Element.Dimensions
+ - More/1.2.4: Class.Binds
+ - More/1.2.4: Drag
+ - More/1.2.4: Element.Dimensions
+ - More/1.2.4: Element.Measure
 
- provides: [Slider]
+provides: [Slider]
  
- ...
- */
+...
+*/
 (function(){
 
     var $ = document.id;
