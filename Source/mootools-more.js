@@ -1,6 +1,3 @@
-// MooTools: the javascript framework.
-// Load this file's selection again by visiting: http://mootools.net/more/e9b2af1d1080d7118fd2619f3ef3a0e8 
-// Or build this file again with packager using: packager build More/More More/Events.Pseudos More/Class.Refactor More/Class.Occlude More/Date More/Object.Extras More/String.Extras More/Element.Event.Pseudos More/Element.Event.Pseudos.Keys More/Element.Delegation More/Element.Measure More/Element.Shortcuts More/Fx.Elements More/Fx.Sort More/HtmlTable More/HtmlTable.Zebra More/HtmlTable.Sort More/HtmlTable.Select More/Keyboard More/Keyboard.Extras More/Locale More/Locale.en-US.Date
 /*
 ---
 
