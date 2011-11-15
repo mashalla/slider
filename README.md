@@ -4,7 +4,7 @@ This class provides an accessible control to create sliders.
 
 Widget based on Mootools More Slider!
 
-![Screenshot](http://www.accessiblemootoolsdemo.iao.fraunhofer.de/Mootools_Widgets/img/Slider.png)
+![Screenshot](http://www.accessiblemootoolsdemo.iao.fraunhofer.de/Mootools_Widgets/WidgetThumbs/Slider.png)
 
 How to use
 ----------
