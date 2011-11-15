@@ -1,40 +1,29 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link rel="stylesheet" href="demo.css" type="text/css" />
-	<script type="text/javascript" src="../Source/mootools-core.js"></script>
-	<script type="text/javascript" src="../Source/mootools-more.js"></script>
-	<script type="text/javascript" src="../Source/slider.js"></script>
-	<script type="text/javascript" src="../Source/demo.js"></script>
-	<script type="text/javascript" src="https://getfirebug.com/firebug-lite.js"></script>
-	<script type="text/javascript" src="../Source/webkitdragdrop.js"></script>
-
-	<title>Slider Demo</title>
-</head>
-<body>
-	<h1>Slider</h1>
-	<h2>Introduction</h2>
-	<p>
-		The Slider-Plugin allows you to drag&amp;drop a knob inside an element to set
-		a value within a certain range.
-	</p>
-	<p>
-		Use the slider to change the font size.
-	</p>
-	<div id="myElement" class="slider">
-		<div class="knob">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=100">
+		<title>Accessible Widgets for MooTools</title>
+		<!-- Embedded Mootools Core und More -->
+		<script src="../Source/mootools-core.js" type="text/javascript"></script>
+		<script src="../Source/mootools-more.js" type="text/javascript"></script>
+		<!-- General CSS File -->
+		<link href="demo.css" type="text/css" rel="stylesheet" />
+		<!-- Source: -->
+		<script type="text/javascript" src="../Source/slider.js"></script>
+		<script type="text/javascript" src="../Source/demo.js"></script>
+	</head>
+	<body>
+		<div class="sa_demo_headerScreen">
+			<span><a href="http://www.aegis-project.eu/" title="AEGIS"><img src="img/aegis_logo.png" alt="AEGIS" border="0" style="float: left" width="37px;"/></a> <h2>&nbsp;&nbsp;&nbsp;Accessible Mootools Widget - Slider</h2></span>
 		</div>
-	</div>
-	<div id="fontSize">
-		Change the value, to change the fontsize.
-	</div>
-	<br/>
-	<br/>
-	<div class="help">
-		<strong>Why?</strong> This is a nice User-Interface-Element to not just let the user set a value
-		by typing into an input field but limiting the range without further needs to check
-		the user input (on clientside). With callbacks you can manipulate anything after changing the value.
-	</div>
+		<div class="sa_demo_contentScreen">
+			<br/>
+			<div id="myElement" class="slider">
+				<div class="knob"></div>
+			</div>
+			<div id="fontSize">
+				Fontsize
+			</div>
+		</div>
 	</body>
 </html>
