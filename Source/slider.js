@@ -24,6 +24,7 @@ provides: [Slider]
 ...
 */
 
+//New comment
 (function() {
 
 	var $ = document.id;
