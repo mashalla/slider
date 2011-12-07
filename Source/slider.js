@@ -24,6 +24,8 @@ provides: [Slider]
 ...
 */
 
+var dummy = "test";
+
 (function() {
 
 	var $ = document.id;
