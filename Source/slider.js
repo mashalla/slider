@@ -24,8 +24,8 @@ provides: [Slider]
 ...
 */
 
+//New comment 2
 var dummy = "test";
-
 (function() {
 
 	var $ = document.id;
