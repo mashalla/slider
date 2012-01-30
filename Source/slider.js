@@ -133,7 +133,7 @@ provides: [Slider]
 				dragOptions.grid = Math.ceil(this.stepWidth);
 				dragOptions.limit[this.axis][1] = this.full;
 			}
-			this.drag = new Drag(this.knob, dragOptions);
+			this.drag = new SliderDrag(this.knob, dragOptions);
 			this.attach();
 
 			// --- extended ----------- Anfang Bearbeitet --------------------------------
@@ -359,7 +359,7 @@ provides: [Slider]
 /*
  ---
  script: Drag.js
- description: The base Drag Class. Can be used to drag and resize Elements using mouse events.
+ description: The base Drag Class. Can be used to drag and resize Elements using mouse events. Renamed to SliderDrag
  license: MIT-style license
  authors:
  - Valerio Proietti
@@ -373,7 +373,7 @@ provides: [Slider]
  - /MooTools.More
  provides: [Drag]
  */
-var Drag = new Class({
+var SliderDrag = new Class({
 
 	Implements : [Events, Options],
 
@@ -559,7 +559,7 @@ var Drag = new Class({
 Element.implement({
 
 	makeResizable : function(options) {
-		var drag = new Drag(this, $merge({
+		var drag = new SliderDrag(this, $merge({
 			modifiers : {
 				x : 'width',
 				y : 'height'
